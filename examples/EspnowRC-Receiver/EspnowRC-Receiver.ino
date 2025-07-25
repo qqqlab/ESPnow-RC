@@ -1,4 +1,4 @@
-#include "ESPnowRC.h"
+#include <ESPnowRC.h>
 
 ESPnowRC espnowrc(true); //true = RX
 
