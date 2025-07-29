@@ -9,7 +9,7 @@
 
 This project uses ESP-NOW to create a RC radio link. It is thought to be directly integrated:
 - Place the ESP transmitter in an existing (toy) radio by connecting the exiting potmeters and buttons to the ESP
-- Use the ESP receiver as flight controller, or as interface to a flight controller
+- Use the ESP receiver as [flight controller](https://github.com/qqqlab/madflight), or as interface to a flight controller
 
 If you want to add TX/RX module to your exiting RC transmitter then https://github.com/RomanLut/hx_espnow_rc might be a better starting point.
 
