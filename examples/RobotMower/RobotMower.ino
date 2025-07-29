@@ -141,7 +141,7 @@ void rc_loop() {
   //left stick: throttle
   //right self-centering x-y stick: forward/reverse and turn
 
-  if(espnowrc.update(pwm)) {
+  if(espnowrc.update(pwm) || espnow.failsafe()) {
     float thr = (float)pwm[0] / 4095; //0.0-1.0
     float dir = rc_stick(pwm[1], 1900, 100);
     float fwd = rc_stick(pwm[2], 1936, 100);
